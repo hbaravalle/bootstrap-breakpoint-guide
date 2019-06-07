@@ -1,0 +1,42 @@
+p {
+  margin: 0 25%;
+}
+
+.sct_textos {
+  width: 100vw;
+  height: 100vh;
+  border: 35px solid transparent;
+  padding: 15px;
+  border-image: url('../img/xs.png') 33.3333 round;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Small SM
+@media screen and (min-width: 576px) {
+  .sct_textos {
+    border-image: url('../img/sm.png') 33.3333 round;
+  }
+}
+
+// Medium MD
+@media screen and (min-width: 768px) {
+  .sct_textos {
+    border-image: url('../img/md.png') 33.3333 round;
+  }
+}
+
+// Large LG
+@media screen and (min-width: 992px) {
+  .sct_textos {
+    border-image: url('../img/lg.png') 33.3333 round;
+  }
+}
+
+// Extra Large XL
+@media screen and (min-width: 1200px) {
+  .sct_textos {
+    border-image: url('../img/xl.png') 33.3333 round;
+  }
+}
